@@ -1,5 +1,5 @@
 body {
-    font-family: sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
 
 .menu{
@@ -13,7 +13,14 @@ body {
   height: 75vh;
   border: solid;
   border-width: 1px;
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  padding: 20px; 
+  background: #f9faf8;
   border-color: rgb(132, 127, 127);
+  box-shadow:  rgba(0,0,0,0.4)
+  10px 10px
+  inset
 
 }
 
@@ -24,3 +31,8 @@ body {
   align-items: center;
 }
 
+.btn.btn-pilih {
+  background: #3e64ff;
+  border-color: #3e64ff;
+  color: #fff;
+}
